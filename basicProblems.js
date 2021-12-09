@@ -1,3 +1,5 @@
+// Random problems
+
 function argumentType(argument) {
     return typeof(argument);
 }
@@ -20,3 +22,15 @@ function findLongestCountryName(countryList) {
     return longestCountryName;
 }
 
+// https://www.codecademy.com/resources/blog/10-javascript-code-challenges-for-beginners/
+
+function printEvenNumbers(num) {
+    num = 10;
+    for (let i = 0; i <= num; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+    }
+}
+
+printEvenNumbers();
