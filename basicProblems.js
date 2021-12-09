@@ -33,4 +33,42 @@ function printEvenNumbers(num) {
     }
 }
 
-printEvenNumbers();
+// printEvenNumbers(10);
+
+function printMultiplicationTable(num) {
+    for (let i = 1; i <= num; i++) {
+        for (let j = 1; j <= num; j++) {
+            console.log(i * j);
+        }
+    }
+}
+
+// printMultiplicationTable(15);
+
+function kilometersToMiles(km) { 
+    let miles = km * 0.621371;
+    console.log(miles);
+    return miles;
+}
+
+// kilometersToMiles(5);
+
+function sumNumbersInArray (array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    return sum;
+}
+
+// sumNumbersInArray([1, 2, 3, 4, 5]);
+
+function reverseArray(array) {
+    let reversedArray = [];
+    for (let i = array.length - 1; i >= 0; i--) {
+        reversedArray.push(array[i]);
+    }
+    return reversedArray;
+}
+
+// console.log(reverseArray([1, 5, 3, 1]));
